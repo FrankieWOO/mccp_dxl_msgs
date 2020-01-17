@@ -1,0 +1,14 @@
+# It is Served by 'single_dynamixel_monitor' node
+# This message is used to send command to dynamixel
+
+string command
+
+uint8 id1
+uint8 id2
+string addr_name
+int32 value1
+int32 value2
+
+---
+
+bool comm_result

@@ -39,12 +39,14 @@ add_message_files(
   DynamixelStateList.msg
   DynamixelInfo.msg
   DynamixelLoadInfo.msg
+  Dxlcmd2.msg
 )
 
 add_service_files(
   FILES
   GetDynamixelInfo.srv
   DynamixelCommand.srv
+  DynamixelCommandTwo.srv
 )
 
 generate_messages(
